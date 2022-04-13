@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { MealComponent } from './meal/meal.component';
 import { MealFormComponent } from './meal-form/meal-form.component';
 import { FormsModule } from '@angular/forms';
+import { CreatPlanComponent } from './creat-plan/creat-plan.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { CaloriesComponent } from './calories/calories.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MealComponent,
-    MealFormComponent
+    MealFormComponent,
+    CreatPlanComponent,
+    NavbarComponent,
+    CaloriesComponent,
   ],
   imports: [
     BrowserModule,

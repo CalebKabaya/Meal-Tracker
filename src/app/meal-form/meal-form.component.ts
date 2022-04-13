@@ -7,11 +7,13 @@ import { Meals } from '../meals';
   styleUrls: ['./meal-form.component.css']
 })
 export class MealFormComponent implements OnInit {
-  newMeal = new Meals(0,"",0,"");
+ newMeal = new Meals(0,"",0,"");
   @Output() addMeal = new EventEmitter<Meals>();
 
   submitMeal(){
     this.addMeal.emit(this.newMeal)
+    this.newMeal = new Meals(0,"",0,"");
+
   }
   constructor() { }
 

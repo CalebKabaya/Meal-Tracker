@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { CreatPlanComponent } from './creat-plan/creat-plan.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CaloriesComponent } from './calories/calories.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CaloriesComponent } from './calories/calories.component';
     CreatPlanComponent,
     NavbarComponent,
     CaloriesComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
